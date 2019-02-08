@@ -86,6 +86,8 @@ exclude:
   - CNAME
   - [vendor]
   
+algolia:                                                                       
+    application_id: MVUY43CFQ1
 
 
 
