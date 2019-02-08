@@ -86,7 +86,7 @@ exclude:
   - CNAME
   - [vendor]
   
-theme: jekyll-theme-slate
+
 
 
 
