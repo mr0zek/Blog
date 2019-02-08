@@ -84,7 +84,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - [vendor]
+  - vendor
   
 algolia:                                                                       
     application_id: MVUY43CFQ1
