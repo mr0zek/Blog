@@ -89,7 +89,7 @@ exclude:
 algolia:                                                                       
     application_id: MVUY43CFQ1
     index_name: Blog
-    search_only_api_key:926a8118b1e4b734d573e9388bab419f
+    search_only_api_key: 926a8118b1e4b734d573e9388bab419f
 
 
 
