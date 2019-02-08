@@ -20,6 +20,9 @@ gem 'minima', '~> 2.5'
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-algolia'
