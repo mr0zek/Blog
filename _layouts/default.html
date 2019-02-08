@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -45,6 +45,8 @@
         </footer>
       </div>
     </div>
+
+    {% include algolia.html %}
 
     {% include analytics.html %}
   </body>
