@@ -1,0 +1,12 @@
+items:
+  - title: Home
+    url: /
+
+  - title: Blog
+    url: /pages/blog/
+
+  - title: My Work
+    url: /pages/mywork/
+
+  - title: Contact Me
+    url: /pages/contactme/
