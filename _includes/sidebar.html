@@ -8,11 +8,11 @@
       {% if page.url == node.url %}
       <a href="{{node.url}}" class="sidebar-nav-item active">{{node.title}}</a>
       {% else %}
-      <a class="sidebar-nav-item" href="{{node.url}}">{{node.title}}</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a>
       {% endif %}
       {% endfor %}
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }} Szymon Szylhabel<br />All rights reserved.</p>
+    <p>&copy; {{ site.time | date: '%Y' }} Szymon Szylhabel<br />All rights reserved. (v{{ site.version }})</p>
   </div>
 </div>
