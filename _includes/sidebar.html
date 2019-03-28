@@ -1,18 +1,18 @@
 <div class="sidebar">
-  <img class="img-circle mypic" src="/assets/img/me.png"/>
-    
-  <div class="container sidebar-sticky">
-                
-    <nav class="sidebar-nav">  
-      {% for node in site.data.menu.items %}
-        {% if page.url == node.url %}
-          <a href="{{node.url}}" class="sidebar-nav-item active">{{node.title}}</a>
-        {% else %}
-          <a class="sidebar-nav-item" href="{{node.url}}">{{node.title}}</a>
-        {% endif %}
-      {% endfor %} 
-    </nav> 
+  <img class="img-circle mypic" src="/assets/img/me.png" />
 
-    <p>&copy; {{ site.time | date: '%Y' }} Szymon Szylhabel<br/>All rights reserved.</p>
+  <div class="container sidebar-sticky">
+
+    <nav class="sidebar-nav">
+      {% for node in site.data.menu.items %}
+      {% if page.url == node.url %}
+      <a href="{{node.url}}" class="sidebar-nav-item active">{{node.title}}</a>
+      {% else %}
+      <a class="sidebar-nav-item" href="{{node.url}}">{{node.title}}</a>
+      {% endif %}
+      {% endfor %}
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }} Szymon Szylhabel<br />All rights reserved.</p>
   </div>
 </div>
