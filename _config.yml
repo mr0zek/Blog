@@ -11,7 +11,8 @@ markdown:	  kramdown
 permalink:        pretty
 
 # Setup
-baseurl:          "https://www.szylhabel.pl"
+url:              "https://www.szylhabel.pl"
+baseurl:          ""
 
 paginate:         5
 

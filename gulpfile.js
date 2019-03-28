@@ -3,7 +3,6 @@ var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var cp = require('child_process');
-var jade = require('gulp-jade')
 
 var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
@@ -15,7 +14,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn(jekyll, ['build', '--baseurl='], { stdio: 'inherit' })
+    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config_dev.yml'], { stdio: 'inherit' })
         .on('close', done);
 });
 
